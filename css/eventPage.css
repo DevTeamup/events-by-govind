@@ -1,0 +1,355 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap");
+
+:root {
+	--main-color: #fa8231;
+}
+
+* {
+	font-family: "Nunito", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: 0.2s linear;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 7rem;
+	scroll-behavior: smooth;
+	width: 100vw;
+}
+
+html::-webkit-scrollbar {
+	width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+	background: #444;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: var(--main-color);
+	border-radius: 5rem;
+}
+
+body {
+	background: white;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	overflow: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	padding: 2rem 9%;
+}
+
+.heading {
+	text-align: center;
+	padding-bottom: 2rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 4rem;
+}
+
+.heading span {
+	color: var(--main-color);
+	text-transform: uppercase;
+}
+
+.btn {
+	margin-top: 1rem;
+	display: inline-block;
+	padding: 0.8rem 3rem;
+	font-size: 1.7rem;
+	border-radius: 0.5rem;
+	background: #666;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.btn:hover {
+	background: var(--main-color);
+} */
+
+/* ---------- default css media quueries --------- */
+
+/* media queries  */
+/* 
+@media (max-width: 991px) {
+	html {
+		font-size: 55%;
+	}
+
+	.header {
+		padding: -0.5rem 2rem;
+	}
+
+	section {
+		padding: 2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	#menu-bars {
+		display: initial;
+	}
+
+	.header .navbar {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		border-top: 0.1rem solid #222;
+		background: #333;
+		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+	}
+
+	.header .navbar.active {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	}
+
+	.fa-times {
+		transform: rotate(180deg);
+	}
+
+	.header .navbar a {
+		display: flex;
+		background: #222;
+		border-radius: 0.5rem;
+		padding: 1.3rem;
+		margin: 1.3rem;
+		font-size: 2rem;
+	}
+
+	.home .content h3 {
+		font-size: 4rem;
+	}
+} */
+
+/* @media (max-width: 450px) {
+	html {
+		font-size: 50%;
+	}
+
+	.home .home-slider .swiper-slide {
+		width: 27rem;
+	}
+
+	.contact form .inputBox input {
+		width: 100%;
+	}
+} */
+
+/* ---------- weeding css starts ------------ */
+
+
+:root {
+	--main-color: #fa8231;
+}
+
+.event {
+  margin: 8rem 0;
+  margin-bottom: 0.5rem;
+  /* color: #fa8231; */
+}
+
+.event .bg_img {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #f8fafc;
+  align-items: center;
+}
+
+.event .wedding_image{
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("https://miro.medium.com/max/1400/1*OBTXNfBRsNFv6Q23BXSPsg.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100vw;
+	height: 450px;
+}
+
+.event .birthday_image{
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("https://5.imimg.com/data5/RA/MV/MY-23933285/party-decoration-services-500x500.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100vw;
+	height: 450px;
+}
+
+.event .bg_img div h2 {
+  font-size: 1.8em;
+}
+
+.event .bg_img div h1 {
+  margin-top: 0.2em;
+  font-size: 4em;
+}
+
+.call_us_btn{
+	width: 230px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: white;
+	background: var(--main-color);
+	
+}
+.call_us_btn a{
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+.info-wrapper .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0.2em;
+}
+
+.info-wrapper .info p {
+  font-family: "Times New Roman";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.info-wrapper .content {
+  width: 50%;
+  padding: 0.2em;
+}
+
+.info-wrapper .img-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 2em 1em;
+}
+
+.info-wrapper .info .img-wrapper img {
+  width: 400px;
+}
+
+.event-services {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-services .heading {
+  color: #fa8231;
+}
+
+.event-services .img-wrapper,
+.event-services .content {
+  font-family: "Times New Roman";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0px;
+  color: #6d6e71;
+  width: 50%;
+  padding: 1.5em 0;
+}
+
+
+
+/* .event-services .img-wrapper{
+    width: 40%;
+} */
+
+.event-services .img-wrapper img {
+  width: 400px;
+  margin: 0.5em;
+}
+
+/* ---------- Services list ----------- */
+
+.event-services ul{
+	list-style: none;
+}
+
+.event-services ul li{
+	text-decoration: none;
+	color: var(--main-color);
+	padding: 5px 5px;
+
+}
+
+/* ---------- event css - media queries ---------- */
+
+@media (max-width: 990px) {
+  .info-wrapper .info {
+    display: block;
+  }
+  .info-wrapper .content,
+  .info-wrapper .img-wrapper {
+    width: 100%;
+  }
+
+  .event-services {
+    display: block;
+  }
+
+  .event-services .img-wrapper,
+  .event-services .content {
+    width: 100%;
+    /* text-align: center; */
+    /* display: block; */
+  }
+
+  .event-services .img-wrapper {
+    margin: auto;
+  }
+
+  .event-services img {
+    width: 100%;
+  }
+
+  .event-services .img-wrapper img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .info-wrapper .info .img-wrapper img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .event .bg_img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .info-wrapper .info .img-wrapper img {
+    width: 100%;
+  }
+  .info-wrapper .img-wrapper {
+    margin: 3em 0;
+  }
+}
